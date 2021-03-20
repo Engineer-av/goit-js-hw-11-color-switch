@@ -1,0 +1,21 @@
+button {
+  outline: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: rgb(164, 167, 165);
+  color: rgb(5, 50, 175);
+}
+
+button[disabled] {
+  opacity: 0.5;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
